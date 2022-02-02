@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <h3>My<span>logo</span></h3>
+        </div>
+        <div class="nav_menu">
+            <div class="link">
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Register</a></li>
+            </div>
+            <div class="icon">
+                <img src="dist/img/phone.png" alt="">
+            </div>
+            <div class="text">
+                <small>Call Free M-F 8Am-6Pm</small>
+                <p>1-844-429-0916 <span>( TTY 211)</span></p>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="box">
+            <form id="regForm">
+                <div class="step">
+                    <p>Let's see for up to $1600 in over-the-counter allowance with a new medicare plan</p>
+                    <button class="button" id="nextBtn"  onclick="nextPrev(1)">Check if i Qualify</button>
+                </div>
+            <div class="step">
+                    <h4>Tell Me About</h4>
+                    <div class="input">
+                        <label for="name">Firstname</label>
+                        <input type="text" placeholder="Fullname">
+                    </div>
+                    <div class="input">
+                        <label for="name">Lastname</label>
+                        <input type="text" placeholder="Lastname">
+                    </div>
+                    <div class="btn">
+                        <button  id="prevBtn" class="button prew"  onclick="nextPrev(-1)">Pervious</button>
+                        <button id="nextBtn" class="button prew"  onclick="nextPrev(1)">Next</button>
+                    </div>
+                </div>
+            <div class="step">
+                    <h4>Tell Me About</h4>
+                    <div class="input">
+                        <label for="name">Email</label>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="input">
+                        <label for="name">Address</label>
+                        <input type="text" placeholder="Address">
+                    </div>
+                    <div class="btn">
+                        <button id="prevBtn" class="button prew"  onclick="nextPrev(-1)">Pervious</button>
+                        <button id="nextBtn" class="button prew"  onclick="nextPrev(1)">Next</button>
+                    </div>
+                </div>
+            <div class="step">
+                    <h4>Tell Me About</h4>
+                    <div class="input">
+                        <label for="name">Phone</label>
+                        <input type="text" placeholder="Phone">
+                    </div>
+                    <div class="input">
+                        <label for="name">Date Of Birth</label>
+                        <input type="date">
+                    </div>
+                    <button class="button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <div class="call_now">
+            <img src="dist/img/phone.png" alt="">
+            <p>1-844-429-0916 <span>( TTY 211 )</span></p>
+            <button class="btn">Call now</button>
+    </div>
+    <footer class="footer">
+        <div class="footer_menu">
+            <ul>
+                <li>Privancy Policy</li>
+                <li>Terms of use</li>
+                <li>Contact us</li>
+            </ul>
+            <div class="call_free">
+                <p>Call Free</p>
+                <p>1-844-429-0916</p>
+            </div>
+            <div class="lo">
+                <p>2022 QualifyMedicare, Inc. All Rights Reserved
+                </p>
+            </div>
+        </div>
+        <div class="footer_text">
+            <div>
+                <p>
+                    The purpose of this website is insurance solicitation. QualifyMedicare.com DBA of Qualify Medicare, LLC is a privately owned and operated non-government website that helps Medicare beneficiaries connect with Licensed Insurance Agents to compare their Medicare Supplement, Medicare Advantage and Medicare Part D Prescription insurance options. The government Medicare site is Medicare.gov. This page is not a complete description of benefits, please visit medicare.gov for full plan benefit information. Plan benefits and amounts will vary by plan and location, and not every plan or coverage area will offer the benefits listed on this website.
+                </p>
+            </div>
+            <div>
+                <p>
+                    The purpose of this website is insurance solicitation. QualifyMedicare.com DBA of Qualify Medicare, LLC is a privately owned and operated non-government website that helps Medicare beneficiaries connect with Licensed Insurance Agents to compare their Medicare Supplement, Medicare Advantage and Medicare Part D Prescription insurance options. The government Medicare site is Medicare.gov. This page is not a complete description of benefits, please visit medicare.gov for full plan benefit information. Plan benefits and amounts will vary by plan and location, and not every plan or coverage area will offer the benefits listed on this website.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
