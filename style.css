@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url("../../dist/Roboto-Medium.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto Medium' !important;
+}
+
+.nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 140px;
+  background-color: #4e409b;
+}
+
+.nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .logo h3 {
+  font-size: 22px;
+  color: #ffffffd0;
+  letter-spacing: 1px;
+}
+
+.nav .logo span {
+  color: #ff3525;
+}
+
+.nav .nav_menu {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav .nav_menu .icon {
+  position: relative;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+.nav .nav_menu .icon img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  width: 20px;
+  opacity: 0.8;
+}
+
+.nav .nav_menu .text {
+  position: relative;
+  cursor: pointer;
+}
+
+.nav .nav_menu .text small {
+  font-size: 12px;
+  font-weight: 600;
+  color: #c3c0d7;
+}
+
+.nav .nav_menu .text p {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #c3c0d7;
+}
+
+.nav .nav_menu .text p span {
+  font-weight: 600;
+  color: #c3c0d7;
+}
+
+.nav .nav_menu .link {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav_menu .link li {
+  margin-right: 15px;
+  list-style: none;
+}
+
+.nav .nav_menu .link li a {
+  color: #ffffffd0;
+  text-decoration: none;
+}
+
+.main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 35rem;
+  padding: 50px 0px;
+  background-color: #f9f9f9;
+}
+
+.main .box {
+  width: 520px;
+  background-color: white;
+  padding: 50px 35px 40px 35px;
+  text-align: center;
+  border-radius: 8px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 0px 13px #00000025;
+          box-shadow: 0px 0px 13px #00000025;
+}
+
+.main .box:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 450px;
+  height: 240px;
+  z-index: 0;
+  background: url("../../dist/img/1.png");
+}
+
+.main .box h4 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main .box .step {
+  display: none;
+}
+
+.main .box .step .btn {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .box .step .input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main .box .step .input label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.main .box .step .input input {
+  font-size: 17px;
+  padding: 10px 12px;
+  width: 100%;
+}
+
+.main .box .step .input input:focus {
+  border: 2px solid #625994;
+}
+
+.main .box p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.main .box .button {
+  position: relative;
+  padding: 15px 20px;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #625994;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main .box .button.prew {
+  width: 48%;
+}
+
+.call_now {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0px -2px 6px #c5bfbfc7;
+          box-shadow: 0px -2px 6px #c5bfbfc7;
+}
+
+.call_now button {
+  position: relative;
+  padding: 21px 44px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background: #625994;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer {
+  color: #fff;
+  background-color: #7162c3de;
+  padding: 50px 0px;
+}
+/*# sourceMappingURL=style.css.map */
